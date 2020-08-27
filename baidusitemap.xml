@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>jackfroster.github.io/2020/02/18/1/</loc>
+    <loc>jackfroster.github.io/2020/08/27/da-jian-mybatis-kuang-jia/</loc>
+    <lastmod>2020-08-27</lastmod>
+  </url>  <url>
+    <loc>jackfroster.github.io/2020/08/27/spring-zhi-shi-dian/</loc>
     <lastmod>2020-08-27</lastmod>
   </url>  <url>
     <loc>jackfroster.github.io/2020/08/27/2/</loc>
+    <lastmod>2020-08-27</lastmod>
+  </url>  <url>
+    <loc>jackfroster.github.io/2020/02/18/1/</loc>
     <lastmod>2020-08-27</lastmod>
   </url>
 </urlset>
