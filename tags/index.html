@@ -33,14 +33,14 @@
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
     <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
     <script>
-        var _hmt = _hmt || [];
-        (function() {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?6467661e352f791fd1354d7581d6ee8d";
-            var s = document.getElementsByTagName("script")[0]; 
-            s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
+	var _hmt = _hmt || [];
+	(function() {
+  		var hm = document.createElement("script");
+  		hm.src = "https://hm.baidu.com/hm.js?b1e5d2e7a5bf004caed148c86cab5f9a";
+  		var s = document.getElementsByTagName("script")[0]; 
+  		s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
 
  
        <script>
@@ -334,19 +334,10 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             <div class="tag-chips">
                 
                 
-                <a href="/tags/学习笔记/" title="学习笔记: 3">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="学习笔记" style="background-color: #F9EBEA;">学习笔记
-                        <span class="tag-length">3</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/tags/Github/" title="Github: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Github" style="background-color: #F5EEF8;">Github
+                            data-tagname="Github" style="background-color: #F9EBEA;">Github
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -355,7 +346,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 <a href="/tags/Hexo/" title="Hexo: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Hexo" style="background-color: #D5F5E3;">Hexo
+                            data-tagname="Hexo" style="background-color: #F5EEF8;">Hexo
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -364,8 +355,17 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 <a href="/tags/博客搭建/" title="博客搭建: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="博客搭建" style="background-color: #E8F8F5;">博客搭建
+                            data-tagname="博客搭建" style="background-color: #D5F5E3;">博客搭建
                         <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/学习笔记/" title="学习笔记: 3">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="学习笔记" style="background-color: #E8F8F5;">学习笔记
+                        <span class="tag-length">3</span>
                     </span>
                 </a>
                 
@@ -393,7 +393,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 <script type="text/javascript">
     
 
-    $('#tag-wordcloud').jQCloud([{"text":"学习笔记","weight":3,"link":"/tags/学习笔记/"},{"text":"Github","weight":1,"link":"/tags/Github/"},{"text":"Hexo","weight":1,"link":"/tags/Hexo/"},{"text":"博客搭建","weight":1,"link":"/tags/博客搭建/"}], {
+    $('#tag-wordcloud').jQCloud([{"text":"Github","weight":1,"link":"/tags/Github/"},{"text":"Hexo","weight":1,"link":"/tags/Hexo/"},{"text":"博客搭建","weight":1,"link":"/tags/博客搭建/"},{"text":"学习笔记","weight":3,"link":"/tags/学习笔记/"}], {
         autoResize: true
     });
 </script>
@@ -404,7 +404,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
     <footer class="page-footer bg-color">
     <div class="container row center-align">
        <div class="Copy-right">
-            &copy; 2020 MUYIio. All Rights Reserved.
+            &copy; 2020 Jack Frost. All Rights Reserved.
 
            <img src="https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@3.0.9/images/icp.png" style="width:18px;height:18px;margin-bottom:-2px" alt="ICP">
            <a href="http://www.beian.miit.gov.cn/" target="_blank">渝ICP备20002309号-1</a>丨
@@ -522,7 +522,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
         minutes - 0-59之间的整数，做为date对象的分钟数
         seconds - 0-59之间的整数，做为date对象的秒数
         microseconds - 0-999之间的整数，做为date对象的毫秒数 */
-        var t1 = Date.UTC(2020, 01, 01, 00, 00, 00); //北京时间2018-2-13 00:00:00
+        var t1 = Date.UTC(2020, 08, 27, 00, 00, 00); //北京时间2018-2-13 00:00:00
         var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
         var diff = t2 - t1;
         var diffYears = Math.floor(diff / years);
